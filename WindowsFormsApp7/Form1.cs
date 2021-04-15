@@ -19,10 +19,18 @@ namespace WindowsFormsApp7
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // Testaan tallennusta -niilo
+                Random r = new Random();
+                int luku = r.Next(1 ,100);
+                textBox1.Text = luku.ToString();
+           
+
             if (button1.BackColor == Color.Cyan)
             {
                 button1.BackColor = Color.Green;
-                // Testaan tallennusta
+
+
+                
             }
             else
             {
