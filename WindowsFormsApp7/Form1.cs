@@ -22,6 +22,7 @@ namespace WindowsFormsApp7
             if (button1.BackColor == Color.Cyan)
             {
                 button1.BackColor = Color.Green;
+                // Testaan tallennusta
             }
             else
             {
